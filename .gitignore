@@ -1,0 +1,33 @@
+.env
+# Python specific
+*.pyc
+__pycache__/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment / virtualenvs
+.env/
+venv/
+env/
+env.bak/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other
+*.log
+*.sqlite3
+*.xlsx
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
